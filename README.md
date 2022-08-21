@@ -1,5 +1,7 @@
 # Roman to Integer chanllenge
-## Roman numerals coding challenge in javascript
+### Roman numerals coding challenge in javascript
+
+- Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 ```
 Symbol       Value
 I             1
