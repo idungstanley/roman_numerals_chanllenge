@@ -14,6 +14,15 @@ var romanToInt = function (s) {
   let number = 0;
   let currentValue;
   let nextValue;
-  
+  for (let i = 0; i < len; i++) {
+    currentValue = roman[convArray[i]];
+    nextValue = roman[convArray[i + 1]];
+    if (currentValue < nextValue) {
+      number -= roman[convArray[i]];
+    } else {
+      number += currentValue;
+    }
+  }
+  console.log(number);
 };
 romanToInt("MCMXCIV");
